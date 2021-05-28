@@ -7,10 +7,10 @@ int main()
 
 	CSmtp smtp(
 		25,								/*smtp端口*/
-		"smtp.163.com",					/*smtp服务器地址*/
-		"it_is_just_a_test@163.com",	/*你的邮箱地址*/
-		"XXXXXXXXXX",					/*邮箱密码*/
-		"it_is_just_a_test@126.com",	/*目的邮箱地址*/
+		"smtp.126.com",					/*smtp服务器地址*/
+		"cuijian2020@126.com",	/*你的邮箱地址*/
+		"cuijian0129",					/*邮箱密码*/
+		"1101976450@qq.com",	/*目的邮箱地址*/
 		"好啊!",							/*主题*/
 		"XXX同学，你好！收到请回复！"		/*邮件正文*/
 	);
